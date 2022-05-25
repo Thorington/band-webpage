@@ -1,26 +1,43 @@
-.sidebar-elements{
-  width: 30%;
-  float: right;
-  background-color: greenyellow;
+
+.sidenav{
+  width: 20%;
+  float: left;
+  color: aliceblue;
   font-weight: bold;
   text-align: center;
+  border: 5px solid white;
+  padding: 2%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 5%;
+  position: absolute;
+  box-sizing: border-box;
 
 }
 
-.band-images{
 
-  float: left;
-  
-}
 
 body{
-  background-color: black;
+  background-image: url("https://wallpaperaccess.com/full/1524018.jpg")
+
 }
 
 h1{
   text-align: center;
 }
 
-p {
-  color: pink;
+.main {
+  margin-left: 35%;
+  margin-top: 5%;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  position: relative;
+  
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
